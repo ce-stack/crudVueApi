@@ -33,7 +33,7 @@ export default {
   },
   data() {
     return {
-      url: "http://localhost/laravel-rest-api/public/api/customers",
+      url: "http://127.0.0.1:8000/api/customers",
       customers: [],
       form: { first_name: "", last_name: "", email: "", isEdit: false },
       loader: false
